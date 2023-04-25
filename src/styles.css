@@ -1,0 +1,11 @@
+:root {
+  --dark-root-color: #363b4e;
+  --light-root-color: #c4bbf0;
+  --purple-root-color: #4f3b78;
+  --lila-root-color: #927fbf;
+}
+
+body {
+  color: var(--dark-root-color);
+  background: var(--light-root-color);
+}
