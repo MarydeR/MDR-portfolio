@@ -10,6 +10,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: var(--dark-root-color);
+  background-color: var(--light-root-color);
 }
 
 header {
@@ -79,13 +80,17 @@ h3 {
   color: var(--light-root-color);
   background: var(--purple-root-color);
   transition: all 100ms ease-in-out;
-  border: 1px solid var(--purple-root-color);
+
   text-decoration: none;
 }
 
 .projectbox a:hover {
   color: var(--purple-root-color);
   background: var(--light-root-color);
+}
+
+.contact {
+  background-color: var(--white-root-color);
 }
 
 footer {
