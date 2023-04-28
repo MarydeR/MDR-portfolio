@@ -39,7 +39,26 @@ h3 {
   color: var(--purple-root-color);
 }
 
-.projectsection h2 {
+.socialicons {
+  margin: 0 auto;
+  padding-top: 30px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  text-align: center;
+  color: var(--lila-root-color);
+  font-size: 20px;
+}
+
+.socialicons a {
+  padding: 20px;
+  padding-bottom: 5px;
+  margin: 0px auto;
+  text-align: center;
+  color: var(--lila-root-color);
+}
+
+.projectsection h2,
+.contactsection h2 {
   padding: 40px;
   font-family: "Playfair Display", serif;
   text-align: center;
@@ -92,22 +111,9 @@ h3 {
 .contact {
   background-color: var(--white-root-color);
 }
-.socialicons {
-  margin: 0 auto;
-  padding-top: 30px;
-  margin-top: 20px;
-  margin-bottom: 5px;
-  text-align: center;
-  color: var(--lila-root-color);
-  font-size: 20px;
-}
 
-.socialicons a {
-  padding: 20px;
-  padding-bottom: 5px;
-  margin: 0px auto;
-  text-align: center;
-  color: var(--lila-root-color);
+.contactsection h2 {
+  color: var(--purple-root-color);
 }
 
 footer {
