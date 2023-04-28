@@ -92,6 +92,23 @@ h3 {
 .contact {
   background-color: var(--white-root-color);
 }
+.socialicons {
+  margin: 0 auto;
+  padding-top: 30px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  text-align: center;
+  color: var(--lila-root-color);
+  font-size: 20px;
+}
+
+.socialicons a {
+  padding: 20px;
+  padding-bottom: 5px;
+  margin: 0px auto;
+  text-align: center;
+  color: var(--lila-root-color);
+}
 
 footer {
   margin: 10px;
