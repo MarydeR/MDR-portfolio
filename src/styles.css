@@ -9,7 +9,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--dark-root-color);
+  color: var(--purple-root-color);
   background-color: var(--light-root-color);
 }
 
@@ -19,7 +19,9 @@ header {
   background-color: var(--purple-root-color);
   color: var(--light-root-color);
 }
-
+.welcome {
+  padding: 20px;
+}
 h1 {
   font-family: "Playfair Display", serif;
   font-size: 50px;
@@ -28,15 +30,49 @@ h1 {
 h2 {
   font-weight: lighter;
 }
-.works {
-  background: var(--light-root-color);
-  padding-bottom: 50px;
-}
-
 h3 {
   font-family: "Playfair Display", serif;
   font-family: 18px;
   color: var(--purple-root-color);
+}
+a {
+  color: var(--purple-root-color);
+  transition: all 100ms ease-in-out;
+}
+ul {
+  text-align: center;
+  list-style: none;
+  font-size: 25px;
+  line-height: 2;
+}
+
+footer {
+  margin: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
+
+footer a:hover {
+  color: var(--lila-root-color);
+}
+
+.about {
+  margin-top: 30px;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: lighter;
+  line-height: 1.5;
+  text-align: center;
+}
+.about a {
+  color: var(--light-root-color);
+}
+.about a:hover {
+}
+.works {
+  background: var(--light-root-color);
+  padding-bottom: 50px;
 }
 
 .socialicons {
@@ -55,6 +91,13 @@ h3 {
   margin: 0px auto;
   text-align: center;
   color: var(--lila-root-color);
+}
+.about a:hover,
+header .socialicons a:hover {
+  font-size: 25px;
+}
+.contact .socialicons a:hover {
+  color: var(--purple-root-color);
 }
 
 .projectsection h2,
@@ -98,7 +141,6 @@ h3 {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   color: var(--light-root-color);
   background: var(--purple-root-color);
-  transition: all 100ms ease-in-out;
 
   text-decoration: none;
 }
@@ -116,19 +158,16 @@ h3 {
   color: var(--purple-root-color);
 }
 
-footer {
-  margin: 10px;
-  font-family: "Poppins", sans-serif;
-  font-size: 14px;
+.contactinfo {
+  padding: 50px;
+}
+.contactinfo a:hover {
+  font-style: italic;
+}
+.contacthomelink {
   text-align: center;
 }
-
-footer a {
-  color: var(--dark-root-color);
-  transition: all 100ms ease-in-out;
-}
-
-footer a:hover {
+.contacthomelink a:hover {
   color: var(--lila-root-color);
 }
 
